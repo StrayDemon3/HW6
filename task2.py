@@ -47,7 +47,6 @@ for i in range(len(data_1)):
 
 def multiplication_and_division_with_parenthesis(data, i):
     for i in range(i, len(data)):
-        print(data)
         if data[i] == ')':
             break
         else:
@@ -128,6 +127,5 @@ for i in range(len(data_3)):
 data_1 = multiplication_and_division_with_parenthesis(data_1, 1)
 data_1 = [item for item in data_1 if not item == '-' and not item == '+']
 
-print(data_1)
 print(round(sum(data_1),2))
 
